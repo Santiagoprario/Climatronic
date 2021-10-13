@@ -1,0 +1,81 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+/*Animación tierra*/
+.planeta{
+  animation-name: planeta;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: planeta; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 5px;
+  width: 5px;
+}
+.planeta, .planeta .tierra{
+  height: 50px;
+  width: 50px;
+}
+@keyframes planeta{
+  100% {
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+  }
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes planeta {
+  100% {
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */ 
+    transform: rotate(360deg);
+  }
+}
+.luna{
+  animation-name: luna;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: luna; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+  height: 50px;
+  width: 50px;
+}
+@keyframes luna{
+  100% { 
+    -ms-transform: rotate(-360deg); /* IE 9 */
+    -webkit-transform: rotate(-360deg); /* Chrome, Safari, Opera */ 
+    transform: rotate(-360deg);
+  }
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes luna {
+  100% { 
+    -ms-transform: rotate(-360deg); /* IE 9 */
+    -webkit-transform: rotate(-360deg); /* Chrome, Safari, Opera */ 
+    transform: rotate(-360deg);
+  }
+}
+
+.title {
+  color: lightgray;
+}
+
+.about {
+  text-decoration: none !important;
+  color: white;
+}
+
+.about:hover {
+  transform: scale(1 , 1.5);
+  text-decoration: none !important;
+  color: black;
+}

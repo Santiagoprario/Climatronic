@@ -1,0 +1,9 @@
+.button {
+    border-radius : 5 px;
+    background-color: gray;
+    font-size: 15 px;
+}
+
+#boton {
+    margin-top: 20 px;
+}
